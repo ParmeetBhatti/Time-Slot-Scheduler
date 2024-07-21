@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(../Assets/background.jpg);
+}
+
+.container {
+  margin-top: -30px;
+  color: #fff;
+  padding: 20px;
+  margin-left: 650px;
+}
+
+/* Dashboard Component Styles */
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-content {
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container select{
+  margin-left: -125px;
+  width: 54%;
+  height: 30%;
+  background-color: rgba(209, 205, 205, 0.2);
+  outline: none;
+  border: 2px solid rgba(209, 205, 205, 0.2);
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px 10px 10px;
+}
+
+.container input {
+  margin-left: -125px;
+  width: 50%;
+  height: 30%;
+  background-color: rgba(209, 205, 205, 0.2);
+  outline: none;
+  border: 2px solid rgba(209, 205, 205, 0.2);
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px 10px 10px;
+}
+
+.container select option {
+  background-color: rgba(209, 205, 205, 0.8);
+  color: black;
+}
+
+.container input::placeholder {
+  color: #c5c1c3;
+}
+
+.container h2{
+  margin-left: -50px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  color: white;
+  background: rgb(245, 5, 85);
+  border: #fff;
+}
+
+.time-slots {
+  margin-top: 3px;
+  margin-left: -170px;
+}
+
+.time-slot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.time-slot input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.time-slot label {
+  font-size: 16px;
+  color: black; /* Adjust the color as needed */
+}
+
+h3 {
+  color: white;
+  margin-left: -30px;
+}
+
+/* Sidebar styles */
+.sidebar-container {
+  width: 200px;
+  height: 100vh;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text color */
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 30px;
+  position: fixed; /* Fix the sidebar to the left side */
+  left: 0;
+  top: 0;
+}
+
+.sidebar-link {
+  color: rgb(245, 5, 85); /* Pink text color */
+  text-decoration: none;
+  padding-top: 30px;
+  margin: 10px 0;
+  padding: 14px;
+  border-radius: 15px 0 0 15px;
+  font-weight: 600;
+}
+
+.sidebar-link:hover,
+.sidebar-link-active {
+  background-color: rgb(245, 5, 85); /* Pink background for active and hover */
+  color: #f3f3f3;
+  border-radius: 15px 0 0 15px;
+  text-decoration: solid;
+  transition: 1s;
+}
+
+.sidebar-link-active {
+  color: #010101; /* Pink text color */
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.but {
+  margin-left: -15%;
+  width: 55%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: rgb(245, 5, 85);
+  color: white;
+}
